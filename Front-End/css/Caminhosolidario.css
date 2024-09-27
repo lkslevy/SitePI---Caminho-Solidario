@@ -1,0 +1,299 @@
+/*///////////////////////////////////////////////////////////
+    lucas Ataide - HOME (Usuario);
+///////////////////////////////////////////////////////////*/
+*, body{
+    margin: 0;
+    padding: 0; 
+}
+/*-----CABEÇALHO-----*/
+/*NAVEGADOR*/
+header{
+    display: flex;
+    background-color: rgba(242, 92, 34, 0.25);
+    height: 130px;
+    font-family: arial;
+    margin: 0;
+}
+.navegador{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-between;
+}
+.logo{
+    width: 320px;
+    height: 310px;
+}
+.navegadores{
+    display: flex;
+    align-items: center;
+    width: auto;
+   
+}
+.navegadores a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#ancora{
+    font-weight: bold;
+    color: #F1642E;
+}
+.usuario{
+    color: #F1642E;
+    font-size: 70px;
+}
+/*/////////////////////////////////////////*/
+/*Principal*/
+main{
+    height: auto;
+}
+    /*oportunidades*/
+.oportunidades h2{
+    text-align: center;
+    margin: 100px 0px 40px 0px;
+}
+.container_imagens_oportunidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.oportunidades img{
+    height: 200px;
+   
+}
+    /*Eventos*/
+    .eventos{
+        padding: 100px;
+    }
+    .container_eventos{
+        display: flex;
+        margin: 20px;
+       
+    }
+    .eventos h2{
+        text-align: center;
+        margin: 100px 0px 40px 0px;
+    }
+    .texto{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 400px;
+    }
+    .texto h4, p{
+        width: 50%;
+    }
+    .texto p{
+        font-size: 20px;
+    }
+    .container_imagem{
+        display: flex;
+        justify-content: end;
+    }
+    .eventos img{
+        margin-right: 0;
+        height: 400px;
+        width: auto;
+       
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        background-color: #FCD6C8;
+        border-radius: 5px;
+        height: 100px;
+        width: 120px;
+        padding: 20px;
+        position: absolute;
+        margin: -20px;
+        font-weight: bold;
+    }
+    .data p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .data h6{
+        font-size: 20px;
+        color: #A15252;
+        margin: 0;
+    }
+    .data h5{
+        margin-bottom: 0px;
+    }
+    .confira_eventos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .botao_confira_eventos{
+        background-color: #030303;
+        padding: 25px;
+        border-radius: 20px;
+        border: none;
+    }
+    .botao_confira_eventos a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+ 
+
+    @media (max-width: 768px){
+
+        
+    }
+/*///////////////////////////////////////////////////////////
+    lucas Ataide - Sobre (Usuario);
+///////////////////////////////////////////////////////////*/
+/*Principal*/
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        padding: 80px;
+    }
+
+   
+    .sobre h1{
+        font-size: 30px;
+        margin: 10px;
+    }
+    .sobre h2{
+        font-size: 25px;
+        margin: 20px;
+    }
+    .fundadores{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .fundadores img{
+        height: 300px;
+    }
+/*///////////////////////////////////////////////////////////
+    lucas Ataide - Contato (Usuario);
+///////////////////////////////////////////////////////////*/
+/*Principal*/
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.container_contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    text-align: center;
+}
+.linha{
+    background-color: #F1642E;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 50px;
+}
+.formulario_contato{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.formulario_contato input{
+    padding: 10px;
+    width: 100%;
+    border: 2px #F1642E solid;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: #F1642E;
+}
+.formulario_contato select{
+    padding: 10px;
+    width: 100%;
+    border: 2px #F1642E solid;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.formulario_contato textarea{
+    padding: 10px;
+    width: 100%;
+    border: 2px #F1642E solid;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: #F1642E;
+}
+.botao_contato button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+/*/////////////////////////////////////////*/
+/*RODAPÉ*/
+footer{
+    
+    bottom: 0;
+    font-family: arial;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F1642E;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+footer ul{
+    list-style-type: none;
+}
+footer p{
+    margin-top: 10px;
+}
+
+
+/*////////////////////////////////////////////////////*/
+/*Deixar responsivo*/
+/* Media Queries */
+@media (max-width: 768px) {
+    .navegador {
+        flex-direction: column; /* Empilhe os itens no cabeçalho */
+        align-items: flex-start; /* Alinhe à esquerda */
+    }
+
+    .navegadores a {
+        font-size: 14px; /* Reduza o tamanho da fonte para telas menores */
+    }
+
+    .usuario {
+        font-size: 40px; /* Reduza o tamanho do ícone */
+    }
+
+    .contato {
+        padding: 20px; /* Ajuste do padding */
+    }
+
+    .botao_contato button {
+        width: 100%; /* Faça o botão ocupar toda a largura */
+    }
+}
