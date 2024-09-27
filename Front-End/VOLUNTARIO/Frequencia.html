@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminho Solidário - Frequencia</title>
+    <link rel="stylesheet" href="Frequencia.css">
+</head>
+<body>
+    <header>
+        <div class="navegador">
+            <img class="logo" src="/img/logo_nomeDolado.png">
+            <nav class="navegadores">
+                <a href="">CADASTRAR</a>
+                <a id="ancora" href="">FREQUÊNCIA</a>
+                <a href="">JUSTIFICATIVA</a>
+                <a href="">ALTERAR</a>
+                <a href="">VOLUNTÁRIO</a>
+                <ion-icon class="usuario" name="person-circle-outline"></ion-icon>
+                <!--Icone pego pelo framework ionicons-->
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>VERIFICAR FREQUÊNCIA</h2>
+        <!--Formulario de verificação de frequência de beneficário e seus respectivos documentos-->
+        <div class="formularios_verificarFrequencia">
+            <div class="pagina_frequencia_form">
+                <div class="beneficiario"><p>Beneficiário</p></div>
+                <form action="" class="form_frequencia1">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="nome">CPF</label>
+                    <input type="text" id="cpf" name="nome" required>
+                    <label for="nome">RG</label>
+                    <input type="text" id="rg" name="nome" required>
+                    <label for="nome">Endereço Completo</label>
+                    <input type="text" id="endereço" name="nome">
+                    <label for="nome">Telefone</label>
+                    <input type="text" id="endereço" name="nome">
+                    <label for="nome">Dependentes</label>
+                    <input type="text" id="endereço" name="nome" style="margin-bottom: 10px;">
+                    <input type="text" id="endereço" name="nome">
+                    <button type="submit">Atualizar</button>
+                </form>
+            </div>
+            <!--Formulário de verificação e lançamento de frequências manuais contando ano e mês de referência-->
+            <div class="pagina_frequencia_form">
+                <p>Frequência do Beneficiário</p>
+                <form action="">
+                    <label for="ano" name="ano">ANO</label>
+                    <select name="ano" id="ano">
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                    </select>
+                    <label for="mes" name="mes">MES</label>
+                    <label for="janeiro" name="janeiro">Janeiro</label>
+                    <input type="checkbox" id="Janeiro" name="Janeiro">
+                    <label for="Fevereiro" name="fevereiro">Fevereiro</label>
+                    <input type="checkbox" id="Fevereiro" name="Fevereiro">
+                    <label for="março" name="março">Março</label>
+                    <input type="checkbox" id="Março" name="Março">
+                    <label for="abril" name="abril">Abril</label>
+                    <input type="checkbox" id="Abril" name="Abril">
+                    <label for="maio" name="maio">Maio</label>
+                    <input type="checkbox" id="Maio" name="Maio">
+                    <label for="junho" name="junho">Junho</label>
+                    <input type="checkbox" id="Junho" name="Junho">
+                    <label for="julho" name="julho">Julho</label>
+                    <input type="checkbox" id="Julho" name="Julho">
+                    <label for="agosto" name="agosto">Agosto</label>
+                    <input type="checkbox" id="Agosto" name="Agosto">
+                    <label for="setembro" name="setembro">Setembro</label>
+                    <input type="checkbox" id="Setembro" name="Setembro">
+                    <label for="outubro" name="outubro">Outubro</label>
+                    <input type="checkbox" id="Outubro" name="Outubro">
+                    <label for="novembro" name="novembro">Novembro</label>
+                    <input type="checkbox" id="Novembro" name="Novembro">
+                    <label for="dezembro" name="dezembro">Dezembro</label>
+                    <input type="checkbox" id="Dezembro" name="Dezembro">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

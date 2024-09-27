@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Caminho Solidario - contato</title>
+    
+    <link rel="stylesheet" href="/css/Caminhosolidario.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"  
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"  
+        crossorigin="anonymous"></script>
+
+    <style>
+        label{
+            font-weight: bold;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+     <header>
+          <div class="navegador">
+               <img class="logo" src="/img/logo_nomeDolado.png" alt="">
+               <nav class="navegadores">
+                    <a href="home.html">HOME</a>
+                    <a href="sobre.html">SOBRE</a>
+                    <a id="ancora" href="#">CONTATO</a>
+                    <a href="/VOLUNTARIO/login.html">VOLUNTARIO</a>
+                    <ion-icon class="usuario" name="person-circle-outline"></ion-icon>
+                    <!--Icone pego pelo framework ionicons-->
+                   </nav>
+              </div>
+         </header>
+
+     <main>
+          <div class="contato">
+               <div class="container_contato">
+                    <h1>FORMULÁRIO</h1>
+                     <span class="linha"></span>
+                    <form class="formulario_contato">
+                         <label class="titulo_contato">Nome:</label>
+                         <input type="text" class="input_contato" required>
+                         <label class="titulo_contato">E-mail:</label>
+                         <input type="email" class="input_contato" required>
+                         <label class="titulo_contato">Telefone:</label>
+                         <input type="tel" class="input_contato" required>
+                         <label class="titulo_contato">Assunto:</label>
+                         <select name="" id="assunto">
+                              <option value=""></option>
+                              <option value="">Reclamações</option>
+                              <option value="">Informações</option>
+                              <option value="">Dúvidas</option>
+                              <option value="">Sugestões</option>
+                              <option value="">Voluntário</option>
+                             </select>
+                         <label class="titulo_contato">Mensagem:</label>
+                         <textarea name="" id="mensagem"></textarea>
+                        </form>
+                    <div class="botao_contato">
+                         <button type="button">Enviar</button>
+                        </div>
+                   
+                   </div>
+              </div>
+         </main>
+
+
+     <footer>
+          <div class="rodape_direito">
+               <ul>
+                    <li>Caminho Solidário</li>
+                    <li> CNPJ: 00000</li>
+                    <li>Taguatinha - Norte</li>
+                    <li>Quadra 1 do lado da 2</li>
+                    <li>Brasília/DF</li>
+                    <li>CEP: 00000</li>
+                   </ul>
+              </div>
+          <div class="rodape_esquerdo">
+               <ul>
+                    <li>telefone / whatsapp: </li>
+                    <li>619999-0000</li>
+
+                    <p>Instagram:</p>
+                    <li>@caminho_solidario</li>
+                   </ul>
+              </div>
+         </footer>
+
+     <!--Link para pegar os icones do ionicons-->
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
